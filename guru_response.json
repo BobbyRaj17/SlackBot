@@ -1,0 +1,117 @@
+{
+  "DOWN": {
+    "UI": {
+      "url": "https://github.com/",
+      "type": "url_check",
+      "response": {
+        "text": "I checked `Github` and it's up.Hope you are on correct Network",
+        "attachments": [
+          {
+            "color": "#36a64f",
+            "title": "Use /pd to trigger PagerDuty on call if you still feel it is Down",
+            "footer": "Slack Bot AT YOUR SERVICE \n For more info pls ref the channel description",
+            "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png"
+          }
+        ]
+      }
+    },
+    "API": {
+      "url": "https://api.github.com",
+      "type": "url_check",
+      "response": {
+        "text": "I checked `Github API` and it's up.Hope you are on correct Network",
+        "attachments": [
+          {
+            "color": "#36a64f",
+            "title": "Use /pd to trigger PagerDuty on call if you still feel it is Down",
+            "footer": "Slack Bot AT YOUR SERVICE \n For more info pls ref the channel description",
+            "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png"
+          }
+        ]
+      }
+    }
+  },
+  "ARCHITECTURE": {
+    "APPLICATION": {
+      "url": {
+        "text": "Here you go :",
+        "attachments": [
+          {
+            "color": "#36a64f",
+            "title": "<Provide wiki/Doc link for your application architecture>",
+            "text": "ARCHITECTURE",
+            "footer": "SlACK BOT AT YOUR SERVICE \n For more info pls ref the channel description",
+            "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png"
+          }
+        ]
+      },
+      "type": "wiki_url"
+    }
+  },
+  "FAQ": {
+    "APPLICATION": {
+      "url": {
+        "text": "Here you go :",
+        "attachments": [
+          {
+            "color": "#36a64f",
+            "title": "<Provide wiki/Doc link for your application FAQ>",
+            "text": "FAQ",
+            "footer": "SlACK BOT AT YOUR SERVICE \n For more info pls ref the channel description",
+            "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png"
+          }
+        ]
+      },
+      "type": "wiki_url"
+    }
+  },
+  "DOCUMENT": {
+    "application": {
+      "url": {
+        "text": "Here you go :",
+        "attachments": [
+          {
+            "color": "#36a64f",
+            "title": "<Provide wiki/Doc link for your application's Document/landing page>",
+            "text": "DOCUMENT",
+            "footer": "SlACK BOT AT YOUR SERVICE \n For more info pls ref the channel description",
+            "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png"
+          }
+        ]
+      },
+      "type": "wiki_url"
+    },
+    "ATTRIBUTE": {
+      "CREATE": {
+        "url": {
+          "text": "Here you go :",
+          "attachments": [
+            {
+              "color": "good",
+              "title": "DEFAULT RESPONSE",
+              "text": "JIRA SUCCESSFULLY CREATED FOR NEW ATTRIBUTE REQUEST",
+              "footer": "SlACK BOT AT YOUR SERVICE \n For more info pls ref the channel description",
+              "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png"
+            }
+          ]
+        },
+        "type": "create_issue_jira"
+      },
+      "REQUEST": {
+        "url": {
+          "text": "Here you go :",
+          "attachments": [
+            {
+              "color": "good",
+              "title": "DEFAULT RESPONSE",
+              "text": "JIRA SUCCESSFULLY CREATED FOR NEW ATTRIBUTE REQUEST",
+              "footer": "SlACK BOT AT YOUR SERVICE \n For more info pls ref the channel description",
+              "footer_icon": "https://platform.slack-edge.com/img/default_application_icon.png"
+            }
+          ]
+        },
+        "type": "create_issue_jira"
+      }
+    }
+  }
+}
