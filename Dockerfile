@@ -33,7 +33,7 @@ RUN mkdir -p /var/log/supervisord
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
 # set enviornemt variable
-# Follow the link to create your own webhook token
+# Follow the link to create your own webhook token - https://get.slack.help/hc/en-us/articles/215770388-Create-and-regenerate-API-tokens
 ENV SLACK_BOT_TOKEN <SLACK BOT TOKEN>
 ENV SLACK_WEBHOOK_SECRET <SLACK WEBHOOK SECRET>
 
